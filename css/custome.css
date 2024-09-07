@@ -1,8 +1,11 @@
 
 body {
     font-family: yekanBakh;
-}
 
+}
+a {
+    text-decoration: none;
+}
 @font-face {
     font-family: yekanBakh;
     font-style: normal;
@@ -15,4 +18,12 @@ body {
     font-style: normal;
     font-weight: 500;
     src: url('../fonts/YekanBakh-Medium.f7360956.woff');
+}
+
+.w_inherit {
+    width: inherit;
+}
+
+.full_width {
+    width: 100%;
 }
